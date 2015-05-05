@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/serviceAction"
+      android:orderInCategory="100"
+      app:showAsAction="always"
+      android:title="@string/home_serviceaction_menu_item"/>
+  <item
+      android:id="@+id/mapsAction"
+      android:orderInCategory="100"
+      app:showAsAction="always"
+      android:title="@string/home_mapsaction_menu_item"/>
+  <item
+      android:id="@+id/settingsAction"
+      android:orderInCategory="100"
+      app:showAsAction="always"
+      android:title="@string/home_settingsaction_menu_item"/>
+  <item
+      android:id="@+id/aboutAction"
+      android:orderInCategory="100"
+      app:showAsAction="always"
+      android:title="@string/home_aboutaction_menu_item"/>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/firstLabel_string"
+      android:id="@+id/firstLabel"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/secondLabel_string"
+      android:id="@+id/secondLabel"
+      style="@style/TextBody"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/searchBttn_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/searchBttn"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/signInButton_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/signInButton"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/registerButton_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/registerButton"
+      style="@style/Widget.Button"
+      />
+  <ImageView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:src="@drawable/ebay"
+      android:id="@+id/topImage"
+      />
+
+
+
+</LinearLayout>
+</ScrollView>

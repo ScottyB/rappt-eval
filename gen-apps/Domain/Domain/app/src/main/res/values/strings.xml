@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Domain</string>
+        <string name="search_title">Map area</string>
+        <string name="recent_title">Recent & Saved Searches</string>
+        <string name="notifications_title">Notifications</string>
+        <string name="firstTabId_string">Search</string>
+        <string name="secondTabId_string">Recent & Saved Searches</string>
+        <string name="rowId_string"></string>
+        <string name="search_notificationid_menu_item">Notification</string>
+        <string name="registerBttn_string">List</string>
+        <string name="signInBttn_string">Save search</string>
+        <string name="marker_sydneyId_title">Location</string>
+        <string name="marker_sydneyId_description"></string>
+        <string name="favBttn_string">Recent Searches</string>
+        <string name="empty_string">Nice work!</string>
+        <string name="done_string">You\'re on top of your notifications.</string>
+        <string name="retrofit_error">Server error occured.</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+        <string name="drawer_open">Open navigation drawer</string>
+        <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

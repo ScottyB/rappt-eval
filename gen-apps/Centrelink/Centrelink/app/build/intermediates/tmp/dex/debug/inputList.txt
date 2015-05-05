@@ -1,0 +1,8 @@
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/classes/debug
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-15a1c5fbda4276a8ad1d869421ceaca601e662f0.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/eventbus-2.2.0-3a168cae343e618f4791f96cbe71b5c38761470b.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-fe80c787e9bc6cd595f18c79ace4ad03d0a256b7.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2b0665af9025c826fbacb2f6303d1c445cfca4be.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-af67976cb0d7e511038c9b4f45a19758c5239722.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-45f6eafcecd3e3d58dc94a1645031952ea2a843c.jar
+/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-582302ed9082428ec4ad2c2a6d3ab25e12d0d4af.jar

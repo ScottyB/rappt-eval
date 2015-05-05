@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/heading_string"
+      android:id="@+id/heading"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/secondHeading_string"
+      android:id="@+id/secondHeading"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/body_string"
+      android:id="@+id/body"
+      style="@style/TextBody"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/acceptButton_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/acceptButton"
+      style="@style/Widget.Button"
+      />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/src/main/res/layout/express.xml -->

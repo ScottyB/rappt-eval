@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/loginBttnId_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/loginBttnId"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/signUpBttn_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/signUpBttn"
+      style="@style/Widget.Button"
+      />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/src/main/res/layout/home.xml -->

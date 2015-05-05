@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Spotify</string>
+        <string name="home_title">Spotify</string>
+        <string name="login_title">Log In</string>
+        <string name="forgot_title"></string>
+        <string name="browse_title">Browse</string>
+        <string name="browseTab_string">Browse</string>
+        <string name="aWebView_string">https://www.spotify.com/au/password-reset/</string>
+        <string name="rowId_string"></string>
+        <string name="loginBttnId_string">Log In</string>
+        <string name="signUpBttn_string">Sign Up</string>
+        <string name="email_string">Username</string>
+        <string name="password_string">Password</string>
+        <string name="fbk_string">Log in with Facebook</string>
+        <string name="loginBttn_string">Log in</string>
+        <string name="forgotBttn_string">Forgot your password?</string>
+        <string name="orLabel_string">or</string>
+        <string name="topBttn_string">Top Lists</string>
+        <string name="newBttn_string">New Releases</string>
+        <string name="msg_string">Workday music for any style imaginable</string>
+        <string name="retrofit_error">Server error occured.</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+        <string name="drawer_open">Open navigation drawer</string>
+        <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-bac590796bc790711eaaed2739ee1e185b21b98b.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.1/7ed01353649330c692473b85d5c64db4218338db/picasso-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ed01353649330c692473b85d5c64db4218338db">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/picasso-2.3.1-7ce5cd1fc3bee0bd7acd777e5113c5284805f798.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/classes-5636e4ebcaa9efb317deb91a70a35ef80914c0fc.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.0.1/beb7e0a75c753383e7ef68c0e1639999db301c33/androidannotations-api-3.0.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="beb7e0a75c753383e7ef68c0e1639999db301c33">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-fe80c787e9bc6cd595f18c79ace4ad03d0a256b7.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.5.0/54271c5c7a4dfa1c7cd53d0b10956ea35d32abb0/retrofit-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="54271c5c7a4dfa1c7cd53d0b10956ea35d32abb0">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/retrofit-1.5.0-28fa92a50fb6c6db2b3be2fa37b84d2951af791f.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-15a1c5fbda4276a8ad1d869421ceaca601e662f0.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/gson-2.2.4-01232ba16f962d351002bcaec74df4238d33d021.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/pre-dexed/debug/classes-a0549da10e71194bf626f16c1ec89e13bdf73f3c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Gumtree</string>
+        <string name="search_title">Search</string>
+        <string name="savedSearches_title">Saved Searches</string>
+        <string name="recentSearches_title">Recent Searches</string>
+        <string name="firstTabId_string">Search</string>
+        <string name="secondTabId_string">Saved Searches</string>
+        <string name="thirdTabId_string">Recent Searches</string>
+        <string name="rowId_string"></string>
+        <string name="keywords_string">Keywords</string>
+        <string name="clear_string">CLEAR ALL</string>
+        <string name="search_string">SEARCH</string>
+        <string name="options_string">Advanced Options</string>
+        <string name="email_string">Email</string>
+        <string name="password_string">Password</string>
+        <string name="signInBtn_string">Sign In</string>
+        <string name="forgot_string">Forgot Your Password?</string>
+        <string name="create_string">Forgot Your Password?</string>
+        <string name="lab_string">An account makes it easier to post and manage ads but is not required.</string>
+        <string name="retrofit_error">Server error occured.</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+        <string name="drawer_open">Open navigation drawer</string>
+        <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>

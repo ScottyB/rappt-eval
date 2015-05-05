@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/forgotPassword_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/forgotPassword"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/signInButton1_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/signInButton1"
+      style="@style/Widget.Button"
+      />
+<EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/email_string"
+      android:id="@+id/email"
+      />
+<EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/password_string"
+      android:id="@+id/password"
+      />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/src/main/res/layout/signin.xml -->

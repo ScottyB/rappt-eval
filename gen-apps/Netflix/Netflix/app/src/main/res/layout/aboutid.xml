@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel1_string"
+      android:id="@+id/aLabel1"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel2_string"
+      android:id="@+id/aLabel2"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel3_string"
+      android:id="@+id/aLabel3"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel4_string"
+      android:id="@+id/aLabel4"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel5_string"
+      android:id="@+id/aLabel5"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel6_string"
+      android:id="@+id/aLabel6"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel7_string"
+      android:id="@+id/aLabel7"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/aLabel8_string"
+      android:id="@+id/aLabel8"
+      style="@style/TextBody"
+      />
+
+
+
+</LinearLayout>
+</ScrollView>

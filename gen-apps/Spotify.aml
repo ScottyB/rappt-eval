@@ -1,0 +1,81 @@
+app {
+    landingPage = Home
+    drawer drawerId {
+        tab browseTab "Browse" navigate-to Browse
+    }
+}
+
+api SpotifyApi {
+    base = "http://mock-spotify-api-url"
+    mock-data true
+    endPoints {
+        browseEndpoint = GET(endPoint: "/browse")
+    }
+}
+
+screen Home  {
+    title = "Spotify"
+    view {
+        group homeGroup {
+            loginBttnId = button(text: "Log In")
+            signUpBttn = button (text: "Sign Up")
+        }
+    }
+    controller {
+        on-click loginBttnId {
+            navigate-to Login
+        }
+    }
+}
+
+screen Login  {
+    title = "Log In"
+    view {
+        group signInGroup {
+            email = input(hint:"Username")
+            password = input(hint:"Password")
+            orLabel = label(text: "or")
+            fbk = button(text:"Log in with Facebook")
+            loginBttn = button(text:"Log in")
+            forgotBttn = button(text: "Forgot your password?")
+        }
+    }
+    controller {
+        on-click forgotBttn {
+            navigate-to Forgot
+        }
+        on-click loginBttn {
+            navigate-to Browse
+        }
+    }
+}
+
+screen Forgot {
+    view {
+        group forgotGroup {
+            web aWebView "https://www.spotify.com/au/password-reset/"
+        }
+    }
+}
+
+screen Browse {
+    title = "Browse"
+    model {
+        dataSource = source(endPoint: SpotifyApi.browseEndpoint) {
+            listId <= results:list
+            songNameId <= name
+        }
+    }
+    view {
+        group browseGroup {
+            msg = label(text: "Workday music for any style imaginable")
+            list listId {
+                row rowId {
+                    songNameId = label(binding: dataSource)
+                }
+            }
+            topBttn = button(text: "Top Lists")
+            newBttn = button(text: "New Releases")
+        }
+    }
+}

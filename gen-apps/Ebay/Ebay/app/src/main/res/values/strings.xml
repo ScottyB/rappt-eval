@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Ebay</string>
+        <string name="home_title">Ebay</string>
+        <string name="signIn_title">Sign in</string>
+        <string name="register_title">Register</string>
+        <string name="password_title">Service Information</string>
+        <string name="firstTabId_string">Sign In</string>
+        <string name="secondTabId_string">Register</string>
+        <string name="aWebView_string">https://fyp.ebay.com.au/EnterUserInfo</string>
+        <string name="home_shopaction_menu_item">Shopping</string>
+        <string name="searchBttn_string">Search eBay</string>
+        <string name="signInButton_string">Sign in</string>
+        <string name="registerButton_string">Register</string>
+        <string name="firstLabel_string">Sign in to personalise your shopping experience</string>
+        <string name="secondLabel_string">Not an Ebay member? Register an account today</string>
+        <string name="email_string">Email or username</string>
+        <string name="password_string">Password</string>
+        <string name="forgotPassword_string">Forgot Password?</string>
+        <string name="signInButton1_string">Sign In</string>
+        <string name="started_string">Get started</string>
+        <string name="topLabel_string">When it\'s on your mind, it\'s on eBay.</string>
+        <string name="midLabel_string">It only takes a few minutes to become a member.</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+
+
+</resources>

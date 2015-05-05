@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Centrelink</string>
+        <string name="home_title"></string>
+        <string name="express_title">Express Plus</string>
+        <string name="login_title">Express Plus</string>
+        <string name="mapScreen_title">Locator</string>
+        <string name="store_title">Locator</string>
+        <string name="firstTabId_string">Office Location</string>
+        <string name="secondTabId_string">BasicsCard Store</string>
+        <string name="startButton_string">Start now</string>
+        <string name="mapbutton_string">Map</string>
+        <string name="acceptButton_string">I Accept</string>
+        <string name="heading_string">Express Plus</string>
+        <string name="secondHeading_string">Terms and Conditions</string>
+        <string name="body_string">Terms and conditions of Electronic Messaging
+    You may receive electronic messages, SMS or email, from the Australian Government Department of Human Services (us) if you provide us with a mobile phone number or an email address.
+
+    We will only send you messages that are appropriate to your circumstances.
+
+    Where appropriate, we may send you an SMS or email instead of a letter.
+
+    Messages you may receive include but are not limited to:
+
+    requests and reminders to attend appointments
+    requests and reminders to provide documents
+    requests and reminders to provide up to date information
+    notification of decisions
+    notification of payments
+    confirmation of changes to your details
+    information about payments and services</string>
+        <string name="can_string">Customer Access Number</string>
+        <string name="password_string">Password</string>
+        <string name="topLabel_string">Enter your CAN and Password</string>
+        <string name="marker_sydneyId_title">Location</string>
+        <string name="marker_sydneyId_description"></string>
+        <string name="marker_storesId_title">Location</string>
+        <string name="marker_storesId_description"></string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+
+
+</resources>

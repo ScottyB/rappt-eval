@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-af67976cb0d7e511038c9b4f45a19758c5239722.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-582302ed9082428ec4ad2c2a6d3ab25e12d0d4af.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.0.1/beb7e0a75c753383e7ef68c0e1639999db301c33/androidannotations-api-3.0.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="beb7e0a75c753383e7ef68c0e1639999db301c33">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-fe80c787e9bc6cd595f18c79ace4ad03d0a256b7.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/classes-45f6eafcecd3e3d58dc94a1645031952ea2a843c.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2b0665af9025c826fbacb2f6303d1c445cfca4be.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.2.0/8957e80562a7e6ac5d9421e46e0898336c06c307/eventbus-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8957e80562a7e6ac5d9421e46e0898336c06c307">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/eventbus-2.2.0-3a168cae343e618f4791f96cbe71b5c38761470b.jar" />
+    </item>
+    <item
+        jar="/Users/scottbarnett/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/scottbarnett/projects/rappt-apps/Centrelink/Centrelink/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-15a1c5fbda4276a8ad1d869421ceaca601e662f0.jar" />
+    </item>
+
+</items>

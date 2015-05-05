@@ -1,0 +1,67 @@
+app {
+    landingPage = Home
+    drawer drawerId {
+        tab homeTab "Home" navigate-to Home
+	tab firstTabId "My Cloud" navigate-to MyCloud
+	tab secondTabId "Homescreen Show" navigate-to Hot
+    }
+}
+
+api CleanMasterApi {
+    base = "http://mock-clean-master-api-url"
+    mock-data true
+    endPoints {
+        hotApps = GET(endPoint: "/hot", returnsList: true)
+    }
+}
+
+screen Home  {
+    title = "Clean Master"
+    action lock "Lock"
+    action recomended "Apps"
+    view {
+        group homeGroup {
+            junkBttn = button(text: "Junk Files")
+            phoneBttn = button(text: "Phone Boost")
+            antiBttn = button(text: "Antivirus")
+            appBttn = button (text: "App Manager")
+        }
+    }
+}
+
+screen MyCloud  {
+    title = "Sign In"
+    action signIn "Sign In"
+    view {
+        group signInGroup {
+            lab = label(text: "CREATE AN ACCOUNT, FIND A NEW WORLD")
+            fbk = button(text:"Continue with Facebook")
+            google = button(text:"Google+")
+            email = button(text:"Email")
+        }
+    }
+}
+
+screen Hot {
+    title = "Hot"
+    model {
+        dataSource = source(endPoint: CleanMasterApi.hotApps) {
+            img <= picture:image
+            heading <= content
+            likes <= number_likes
+            comments <= number_comments
+        }
+    }
+    view {
+        group hotGroup {
+            list listId {
+                row rowId {
+                    img = image(binding: dataSource)
+                    heading = label(binding: dataSource)
+                    likes = label(binding:dataSource)
+                    comments = label(binding:dataSource)
+                }
+            }
+        }
+    }
+}

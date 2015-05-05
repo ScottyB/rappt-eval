@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/topLabel_string"
+      android:id="@+id/topLabel"
+      style="@style/TextBody"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/midLabel_string"
+      android:id="@+id/midLabel"
+      style="@style/TextBody"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/started_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/started"
+      style="@style/Widget.Button"
+      />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/src/main/res/layout/register.xml -->

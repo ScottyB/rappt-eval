@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">TripViewLite</string>
+        <string name="home_title">TripView Lite</string>
+        <string name="delaysScreen_title">Service Info</string>
+        <string name="delayDetail_title">Service Information</string>
+        <string name="trackworkScreen_title">Service Info</string>
+        <string name="newsScreen_title">Service Info</string>
+        <string name="firstTabId_string">Delays</string>
+        <string name="secondTabId_string">Trackwork</string>
+        <string name="thirdTabId_string">News</string>
+        <string name="aWebView_string">http://www.transportnsw.info/en/transport-status/alerts-detail.page?MessageNum=2014553</string>
+        <string name="rowId_string"></string>
+        <string name="home_serviceaction_menu_item">Service Info</string>
+        <string name="home_mapsaction_menu_item">Maps</string>
+        <string name="home_settingsaction_menu_item">Settings</string>
+        <string name="home_aboutaction_menu_item">About</string>
+        <string name="heading_string">Welcome to TripView Lite!</string>
+        <string name="msg1_string">To get started, press the plus button to add a new trip.</string>
+        <string name="msg2_string">This Lite version does not save trips. See the About page for details about the full version.</string>
+        <string name="favBttn_string">Recent Searches</string>
+        <string name="retrofit_error">Server error occured.</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+
+
+</resources>

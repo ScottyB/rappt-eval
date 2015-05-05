@@ -1,0 +1,69 @@
+app {
+    landingPage = Home
+    tabbar tabbarId {
+	tab firstTabId "Sign In" navigate-to SignIn
+        tab secondTabId "Register" navigate-to Register
+    }
+}
+
+screen Home  {
+    title = "Ebay"
+    action shopAction "Shopping" {
+        navigate-to SignIn
+    }
+     view {
+         group homeGroup {
+             searchBttn = button(text:"Search eBay")
+             topImage = image(file: "ebay.png")
+             firstLabel = label(text:"Sign in to personalise your shopping experience")
+             signInButton = button(text: "Sign in")
+             secondLabel = label(text: "Not an Ebay member? Register an account today")
+             registerButton = button(text: "Register")
+
+        }
+     }
+    controller {
+        on-click signInButton {
+            navigate-to SignIn
+        }
+        on-click registerButton {
+            navigate-to Register
+        }
+    }
+}
+
+screen SignIn  {
+    title = "Sign in"
+    view {
+        group signInGroup {
+            email = input(hint: "Email or username")
+            password = input(hint: "Password")
+            forgotPassword = button(text: "Forgot Password?")
+            signInButton1 = button(text: "Sign In")
+        }
+    }
+    controller {
+        on-click forgotPassword {
+            navigate-to Password
+        }
+    }
+}
+
+screen Register {
+    title = "Register"
+    view {
+        group registerGroup {
+            topLabel = label(text: "When it's on your mind, it's on eBay.")
+            midLabel = label(text: "It only takes a few minutes to become a member.")
+            started = button(text: "Get started")
+        }
+    }
+}
+screen Password {
+    title = "Service Information"
+    view {
+        group passwordGroup {
+            web aWebView "https://fyp.ebay.com.au/EnterUserInfo"
+        }
+    }
+}

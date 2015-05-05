@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/lab_string"
+      android:id="@+id/lab"
+      style="@style/TextBody"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/fbk_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/fbk"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/google_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/google"
+      style="@style/Widget.Button"
+      />
+<Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/email_string"
+      android:layout_marginTop="5dp"
+      android:id="@+id/email"
+      style="@style/Widget.Button"
+      />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/src/main/res/layout/mycloud.xml -->

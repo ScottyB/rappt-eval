@@ -1,0 +1,7 @@
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/classes/debug
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-15a1c5fbda4276a8ad1d869421ceaca601e662f0.jar
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/eventbus-2.2.0-3a168cae343e618f4791f96cbe71b5c38761470b.jar
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-fe80c787e9bc6cd595f18c79ace4ad03d0a256b7.jar
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f7b90534965b15e3bdf00fb2bc691788be38b4bf.jar
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/classes-e248c46fe0d856029addb0d9ded29384c7afeb32.jar
+/Users/scottbarnett/projects/rappt-apps/Ebay/Ebay/app/build/intermediates/pre-dexed/debug/classes-beb7ec8d1eb65651b0bc78c0dd3ba6be83bc02dc.jar

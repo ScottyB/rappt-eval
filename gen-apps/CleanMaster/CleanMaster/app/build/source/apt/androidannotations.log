@@ -1,0 +1,42 @@
+10:42:32.899 [Daemon worker Thread 10] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=/Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.rappt.cleanmaster.app}
+10:42:32.971 [Daemon worker Thread 10] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 16 annotations on 16 elements
+10:42:32.982 [Daemon worker Thread 10] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /Users/scottbarnett/projects/rappt-apps/CleanMaster/CleanMaster/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+10:42:32.985 [Daemon worker Thread 10] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.rappt.cleanmaster.app, componentQualifiedNames=[com.rappt.cleanmaster.app.activities.DrawerActivity_], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE], applicationClassName=com.rappt.cleanmaster.app.CleanMasterApplication_, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=19]
+10:42:32.986 [Daemon worker Thread 10] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.rappt.cleanmaster.app.R
+10:42:32.990 [Daemon worker Thread 10] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+10:42:33.12 [Daemon worker Thread 10] INFO  o.a.p.ModelValidator:42 - Validating elements
+10:42:33.12 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.rappt.cleanmaster.app.CleanMasterApplication]
+10:42:33.13 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.rappt.cleanmaster.app.activities.DrawerActivity]
+10:42:33.15 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.rappt.cleanmaster.app.fragments.HomeFragment, com.rappt.cleanmaster.app.fragments.HotFragment, com.rappt.cleanmaster.app.fragments.MyCloudFragment]
+10:42:33.17 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [com.rappt.cleanmaster.app.adapters.DefaultAdapter, com.rappt.cleanmaster.app.adapters.ListIdAdapter]
+10:42:33.17 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EViewGroupHandler: [com.rappt.cleanmaster.app.views.RowIdItemView]
+10:42:33.18 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [drawer_layout, left_drawer, mViewPager, message, listId, likes, img, comments, heading]
+10:42:33.20 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [junkBttn(), phoneBttn(), antiBttn(), appBttn(), fbk(), google(), email()]
+10:42:33.23 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [listId()]
+10:42:33.25 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [app]
+10:42:33.25 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.rappt.cleanmaster.app.fragments.HomeFragment, com.rappt.cleanmaster.app.fragments.MyCloudFragment]
+10:42:33.26 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [lock(), recomended(), signIn()]
+10:42:33.28 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+10:42:33.29 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [adapter]
+10:42:33.29 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterViews(), init()]
+10:42:33.30 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [handleResponse(java.util.List<com.rappt.cleanmaster.app.model.Hot>), loadingFinished()]
+10:42:33.30 [Daemon worker Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [callCleanMasterApihotApps()]
+10:42:33.44 [Daemon worker Thread 10] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+10:42:33.44 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.rappt.cleanmaster.app.CleanMasterApplication]
+10:42:33.60 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.rappt.cleanmaster.app.activities.DrawerActivity]
+10:42:33.71 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.rappt.cleanmaster.app.fragments.HotFragment, com.rappt.cleanmaster.app.fragments.MyCloudFragment, com.rappt.cleanmaster.app.fragments.HomeFragment]
+10:42:33.76 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [com.rappt.cleanmaster.app.adapters.ListIdAdapter, com.rappt.cleanmaster.app.adapters.DefaultAdapter]
+10:42:33.78 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EViewGroupHandler: [com.rappt.cleanmaster.app.views.RowIdItemView]
+10:42:33.81 [Daemon worker Thread 10] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+10:42:33.86 [Daemon worker Thread 10] DEBUG o.a.p.ModelProcessor:116 - Processing enclosed elements with RootContextHanlder: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@5743fba3]
+10:42:33.91 [Daemon worker Thread 10] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 7
+10:42:33.93 [Daemon worker Thread 10] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+10:42:33.94 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.fragments.HomeFragment_
+10:42:33.110 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.fragments.HotFragment_
+10:42:33.127 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.fragments.MyCloudFragment_
+10:42:33.136 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.views.RowIdItemView_
+10:42:33.142 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.CleanMasterApplication_
+10:42:33.144 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.adapters.ListIdAdapter_
+10:42:33.146 [Daemon worker Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.rappt.cleanmaster.app.activities.DrawerActivity_
+10:42:33.156 [Daemon worker Thread 10] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 185 ms], [Generate Sources = 65 ms], [Process Annotations = 61 ms], [Validate Annotations = 19 ms], [Find R Classes = 17 ms], [Extract Annotations = 8 ms], [Extract Manifest = 4 ms], 
+10:42:33.157 [Daemon worker Thread 10] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing

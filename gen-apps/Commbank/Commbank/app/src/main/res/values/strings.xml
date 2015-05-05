@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Commbank</string>
+        <string name="aTM_title">ATMS</string>
+        <string name="branch_title">Branches</string>
+        <string name="home_title">Commonwealth Bank</string>
+        <string name="firstTabId_string">ATMS</string>
+        <string name="secondTabId_string">Branches</string>
+        <string name="accountBttn_url_string">https://www.commbank.com.au/personal/accounts.html</string>
+        <string name="marker_atmMarker_title">Current</string>
+        <string name="marker_atmMarker_description">Display current location here.</string>
+        <string name="marker_branchMarker_title">Current</string>
+        <string name="marker_branchMarker_description">Display current location here.</string>
+        <string name="accountBttn_string">Open an account now</string>
+        <string name="bttn_string">Find an ATM or Branch</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+
+
+</resources>

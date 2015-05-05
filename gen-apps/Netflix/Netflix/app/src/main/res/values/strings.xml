@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Netflix</string>
+        <string name="home_title">NETFLIX</string>
+        <string name="signIn_title">NETFLIX</string>
+        <string name="aboutId_title">NETFLIX</string>
+        <string name="webViewId_string">https://www.netflix.com/au/</string>
+        <string name="home_signinaction_menu_item">SIGN IN</string>
+        <string name="signin_aboutidaction_menu_item">About</string>
+        <string name="forgot_url_string">https://www.netflix.com/loginhelp</string>
+        <string name="email_string">Email</string>
+        <string name="password_string">Password</string>
+        <string name="signInBtn_string">Sign In</string>
+        <string name="forgot_string">Forgot Your Password?</string>
+        <string name="aLabel1_string">About</string>
+        <string name="aLabel2_string">Version 3.11.1 build 4421 (code 4421), OS API: 18 model: GT-IO300, build: browse: Falkor</string>
+        <string name="aLabel3_string">Diagnostics</string>
+        <string name="aLabel4_string">Network</string>
+        <string name="aLabel5_string">Legal</string>
+        <string name="aLabel6_string">Open Source Licences</string>
+        <string name="aLabel7_string">Privacy Policy</string>
+        <string name="aLabel8_string">Terms of Use</string>
+        <string name="no_internet_connection">There is no internet connection.
+    Please check your internet connection.</string>
+        <string name="wrong_password_email">Sorry, wrong password or email.</string>
+        <string name="message_no_data">No data available</string>
+
+
+</resources>

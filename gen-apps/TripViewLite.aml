@@ -1,0 +1,85 @@
+app {
+    landingPage = Home
+    tabbar tabbarId {
+	tab firstTabId "Delays" navigate-to DelaysScreen
+        tab secondTabId "Trackwork" navigate-to TrackworkScreen
+        tab thirdTabId "News" navigate-to NewsScreen
+    }
+}
+
+api TripViewAPI {
+    base = "http://mock-tripview-api-url"
+    mock-data true
+    endPoints {
+        delays = GET(endPoint: "/delays", returnsList: true)
+    }
+}
+
+screen Home  {
+    title = "TripView Lite"
+    action serviceAction "Service Info" {
+        navigate-to DelaysScreen
+    }
+    action mapsAction "Maps"
+    action settingsAction "Settings"
+    action aboutAction "About"
+
+    view {
+        group homeGroup {
+            heading = label(text:"Welcome to TripView Lite!")
+            msg1 = label(text: "To get started, press the plus button to add a new trip.")
+            msg2 = label(text: "This Lite version does not save trips. See the About page for details about the full version.")
+        }
+    }
+}
+
+screen DelaysScreen  {
+    title = "Service Info"
+    view {
+        group signInGroup {
+            favBttn = label(text:"Recent Searches")
+            list listId {
+                row rowId {
+                    headingLabel = label(binding:dataSource)
+                    timeLabelId = label(binding:dataSource)
+                    msgLabelId = label(binding:dataSource)
+                }
+                on-item-click {
+                    navigate-to DelayDetail
+                }
+            }
+        }
+    }
+    model {
+        dataSource = source(endPoint: TripViewAPI.delays) {
+            headingLabel <= heading
+            timeLabelId <= time
+            msgLabelId <= message
+        }
+    }
+}
+
+screen DelayDetail {
+    title = "Service Information"
+    view {
+        group delayDetailGroup {
+            web aWebView "http://www.transportnsw.info/en/transport-status/alerts-detail.page?MessageNum=2014553"
+        }
+    }
+}
+
+screen TrackworkScreen {
+    title = "Service Info"
+    view {
+        group trackGroup {
+        }
+    }
+}
+
+screen NewsScreen {
+    title = "Service Info"
+    view {
+        group newsGroup {
+        }
+    }
+}

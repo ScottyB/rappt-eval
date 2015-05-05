@@ -1,0 +1,9 @@
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/classes/debug
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-15a1c5fbda4276a8ad1d869421ceaca601e662f0.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/eventbus-2.2.0-3a168cae343e618f4791f96cbe71b5c38761470b.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-fe80c787e9bc6cd595f18c79ace4ad03d0a256b7.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/retrofit-1.5.0-28fa92a50fb6c6db2b3be2fa37b84d2951af791f.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/gson-2.2.4-01232ba16f962d351002bcaec74df4238d33d021.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-557b0ad56d6eed16ea512f6e9625d0741fe09c34.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/classes-451b959139de87b4d972b02d4f6b0d33d56ac35f.jar
+/Users/scottbarnett/projects/rappt-apps/Spotify/Spotify/app/build/intermediates/pre-dexed/debug/classes-f5596a7f6d9235090b5cf076cad61a1aba6225bd.jar
